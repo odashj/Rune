@@ -24,7 +24,7 @@ img.images {
 
 @media screen and (max-width: 899px) {
 .content {
-	position: absolute;
+	position: fixed;
 	left: 5vw;
 	top: 15em;
 	padding: 15px;
@@ -35,7 +35,7 @@ img.images {
 
 @media screen and (max-width: 400px) {
 .content {
-	position: absolute;
+	position: fixed;
 	left: .8vw;
 	top: 15em;
 	padding: 15px;
@@ -55,7 +55,7 @@ img.images {
 @media screen and (max-width: 899px) {
     .sections {
     width: 160px;
-	position: absolute;
+	position: fixed;
 	left: 5vw;
 	top: 5em;
 	padding: 15px;
