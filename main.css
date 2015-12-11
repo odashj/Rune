@@ -147,6 +147,8 @@ text-transform: lowercase;
 	padding: 15px;
 	width: 60vw;
 	z-index: 1100;
+	  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 
