@@ -1,3 +1,5 @@
+
+
   var letterA;
   var letterB;  
   var letterC;  
@@ -192,7 +194,6 @@ function keyPressed() {
 
 
 }
-
 
 
 

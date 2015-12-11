@@ -103,3 +103,26 @@ right: -2.5em;
 	top: 35%;
 	}
 }
+
+@media screen and (max-width: 600px) {
+#myContainer {
+	display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+.comp-title {
+	display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+.index-links {
+	display: none;
+	}
+}
+
+
+
+
+
