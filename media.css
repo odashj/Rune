@@ -60,15 +60,15 @@ img.images {
 @media screen and (max-width: 500px) {
 .logo {
 top: 0em;
-left: 0em;
+left: 2em;
 
 	}
 }
 
 @media screen and (max-width: 500px) {
 .links {
-top: 0em;
-right: 0em;
+top: 5em;
+right: -2.5em;
 	}
 }
 
