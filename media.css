@@ -3,6 +3,16 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 </header>
 
+
+@media screen and (max-width: 899px) {
+.blank {
+
+}
+}
+
+
+
+
 @media screen and (max-width: 899px) {
 img.images {
 	display: inline-block;
@@ -21,4 +31,16 @@ img.images {
 	width: 100vw;
 	z-index: 1100;
 }
+}
+
+@media screen and (max-width: 899px) {
+    .sections {
+    width: 160px;
+	position: absolute;
+	left: 5vw;
+	top: 5em;
+	padding: 15px;
+	padding-right: 15px;
+	z-index: 1000;
+    }
 }

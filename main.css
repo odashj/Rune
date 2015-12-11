@@ -124,7 +124,7 @@ text-transform: lowercase;
 
 }
 
-@media screen and (min-width: 900px) {
+
     .sections {
     width: 160px;
 	position: absolute;
@@ -134,22 +134,12 @@ text-transform: lowercase;
 	padding-right: 15px;
 	z-index: 1000;
     }
-}
-
-@media screen and (max-width: 899px) {
-    .sections {
-    width: 160px;
-	position: absolute;
-	left: 5vw;
-	top: 5em;
-	padding: 15px;
-	padding-right: 15px;
-	z-index: 1000;
-    }
-}
 
 
-@media screen and (min-width: 900px) {
+
+
+
+
 .content {
 	position: absolute;
 	left: 28vw;
@@ -158,7 +148,7 @@ text-transform: lowercase;
 	width: 60vw;
 	z-index: 1100;
 }
-}
+
 
 
 
@@ -166,14 +156,14 @@ text-transform: lowercase;
 	width: 80%;
 }
 
-@media screen and (min-width: 900px) {
+
 img.images {
 	display: inline-block;
 	width: 500px;
 	padding-right: 1%;
 	padding-bottom: 1%;
 }
-}
+
 
 
 .directions {
