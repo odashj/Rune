@@ -33,6 +33,7 @@
 
 function setup() {
   noLoop();
+  
   var myCanvas = createCanvas(screen.width, screen.height);
   myCanvas.parent('myContainer');
 
