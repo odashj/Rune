@@ -170,8 +170,8 @@ img.images {
 
 .directions {
 	position: fixed;
-	top: 20vw;
-	left: 42.5vw;
+	top: 40%;
+	left: 42%;
 	text-transform: lowercase;
 	z-index: 2000;
 }
