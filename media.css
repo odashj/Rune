@@ -33,6 +33,17 @@ img.images {
 }
 }
 
+@media screen and (max-height: 500px) {
+.content {
+	position: absolute;
+	left: 5vw;
+	top: 7em;
+	padding: 15px;
+	width: 100vw;
+	z-index: 1100;
+}
+}
+
 @media screen and (max-width: 899px) {
     .sections {
     width: 160px;
@@ -43,4 +54,24 @@ img.images {
 	padding-right: 15px;
 	z-index: 1000;
     }
+}
+
+@media screen and (max-height: 500px) {
+    .sections {
+ 	display: none;
+    }
+}
+
+@media screen and (max-height: 500px) {
+	.links {
+	position: fixed;
+	top: 3.3em;
+	right: 2.5em;
+	text-transform: lowercase;
+	-ms-transform: rotate(0deg); /* IE 9 */
+	    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+	    transform: rotate(0deg);
+	    z-index: 4000;
+
+	}
 }
