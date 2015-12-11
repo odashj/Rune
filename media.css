@@ -85,3 +85,21 @@ right: -2.5em;
 	}
 }
 
+@media screen and (max-width: 1000px) {
+.directions {
+	top: 40%;
+	left: 40%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+.directions {
+	left: 25%;
+	}
+}
+
+@media screen and (max-height: 500px) {
+.directions {
+	top: 35%;
+	}
+}
