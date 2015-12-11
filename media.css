@@ -57,7 +57,7 @@ img.images {
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
 .logo {
 top: 0em;
 left: 1em;
@@ -65,7 +65,7 @@ left: 1em;
 	}
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
 .links {
 top: 5em;
 right: -2.5em;
