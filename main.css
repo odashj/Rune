@@ -160,16 +160,7 @@ text-transform: lowercase;
 }
 }
 
-@media screen and (max-width: 899px) {
-.content {
-	position: absolute;
-	left: 5vw;
-	top: 15em;
-	padding: 15px;
-	width: 100vw;
-	z-index: 1100;
-}
-}
+
 
 .text {
 	width: 80%;
@@ -184,14 +175,6 @@ img.images {
 }
 }
 
-@media screen and (max-width: 899px) {
-img.images {
-	display: inline-block;
-	width: 80%;
-	padding-right: 1%;
-	padding-bottom: 1%;
-}
-}
 
 .directions {
 	position: fixed;
