@@ -57,7 +57,7 @@
 
 
 <script>
-$(".directions").delay(800).fadeOut(700);
+$(".directions").delay(1500).fadeOut(700);
 </script>
 
 <script type="text/javascript">
@@ -92,7 +92,7 @@ textarea.bind("blur", function() {
  <script type="text/javascript">
   var texttype = document.getElementById('texttype');
 
-var type_this = "hello";
+var type_this = "hello world";
 var index = 0;
 
 window.next_letter = function() {
@@ -201,6 +201,96 @@ for (var i=1; i <= 1; i++) {
     }).appendTo('body');
 }
 }, 450);
+
+setTimeout(function() {
+for (var i=1; i <= 1; i++) {
+    var x = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    var y = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    $('<div class="load6" style="z-index: 20;">').css({
+        position: 'absolute',
+        width: '449px',
+        height: '500px',
+        top: y + '%',
+        left: x + '%',
+        'background-image': ' url("space.png")'
+    }).appendTo('body');
+}
+}, 550);
+
+setTimeout(function() {
+for (var i=1; i <= 1; i++) {
+    var x = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    var y = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    $('<div class="load7" style="z-index: 20;">').css({
+        position: 'absolute',
+        width: '210px',
+        height: '248px',
+        top: y + '%',
+        left: x + '%',
+        'background-image': ' url("w.png")'
+    }).appendTo('body');
+}
+}, 650);
+
+setTimeout(function() {
+for (var i=1; i <= 1; i++) {
+    var x = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    var y = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    $('<div class="load8" style="z-index: 20;">').css({
+        position: 'absolute',
+        width: '355px',
+        height: '119px',
+        top: y + '%',
+        left: x + '%',
+        'background-image': ' url("o2.png")'
+    }).appendTo('body');
+}
+}, 750);
+
+setTimeout(function() {
+for (var i=1; i <= 1; i++) {
+    var x = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    var y = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    $('<div class="load9" style="z-index: 20;">').css({
+        position: 'absolute',
+        width: '397px',
+        height: '500px',
+        top: y + '%',
+        left: x + '%',
+        'background-image': ' url("r.png")'
+    }).appendTo('body');
+}
+}, 850);
+
+setTimeout(function() {
+for (var i=1; i <= 1; i++) {
+    var x = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    var y = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    $('<div class="load10" style="z-index: 20;">').css({
+        position: 'absolute',
+        width: '529px',
+        height: '441px',
+        top: y + '%',
+        left: x + '%',
+        'background-image': ' url("l3.png")'
+    }).appendTo('body');
+}
+}, 950);
+
+setTimeout(function() {
+for (var i=1; i <= 1; i++) {
+    var x = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    var y = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    $('<div class="load11" style="z-index: 20;">').css({
+        position: 'absolute',
+        width: '313px',
+        height: '500px',
+        top: y + '%',
+        left: x + '%',
+        'background-image': ' url("d.png")'
+    }).appendTo('body');
+}
+}, 1050);
   </script>
 
   <script>
@@ -222,6 +312,30 @@ $(document).click(function (event) {
 
 $(document).click(function (event) {        
     $('.load5').hide();
+});
+
+$(document).click(function (event) {        
+    $('.load6').hide();
+});
+
+$(document).click(function (event) {        
+    $('.load7').hide();
+});
+
+$(document).click(function (event) {        
+    $('.load8').hide();
+});
+
+$(document).click(function (event) {        
+    $('.load9').hide();
+});
+
+$(document).click(function (event) {        
+    $('.load10').hide();
+});
+
+$(document).click(function (event) {        
+    $('.load11').hide();
 });
 </script>
 
