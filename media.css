@@ -51,7 +51,7 @@ img.images {
     }
 }
 
-@media screen and (max-height: 300px) {
+@media screen and (max-height: 500px) {
     .sections {
  	display: none;
     }
