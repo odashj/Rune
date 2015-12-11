@@ -112,6 +112,14 @@ text-transform: uppercase;
 z-index: 3000;
 }
 
+.index-logo {
+position: fixed;
+top: .5em;
+left: 2.5em;
+text-transform: uppercase;
+z-index: 3000;
+}
+
 .links {
 position: fixed;
 top: 5.5em;

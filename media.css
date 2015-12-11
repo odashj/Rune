@@ -184,3 +184,9 @@ right: -2.5em;
 	}
 }
 
+@media screen and (max-width: 600px) {
+.index-logo {
+	display: none;
+	}
+}
+
