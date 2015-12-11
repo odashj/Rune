@@ -122,6 +122,11 @@ right: -2.5em;
 	}
 }
 
+@media screen and (max-width: 600px) {
+.directions {
+	display: none;
+	}
+}
 
 
 
