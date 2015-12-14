@@ -96,6 +96,29 @@ h5 {
 	text-transform: uppercase;
 }
 
+h6 {
+	font-family: 'Source Code Pro';
+	font-size: 14px;
+	font-weight: 400;
+	color: #ffffff;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	line-height: 18px;
+}
+
+h6 a{
+	text-decoration: none;
+	color: #ffffff;
+	border-bottom: 1px solid #F05233;
+}
+
+h6 a:hover{
+	border-bottom: 1px solid #000000;
+	color: #ffffff;
+	-webkit-transition: all 100ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition:         all 100ms cubic-bezier(0.445, 0.05, 0.55, 0.95); 
+}
+
 p {
 	font-family: 'Source Code Pro';
 	font-size: 14px;
