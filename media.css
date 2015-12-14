@@ -200,7 +200,8 @@ right: -2.5em;
 .mobile-text {
 		position: fixed;
 		width: 70%;
-		padding: 15vw;
+		padding-left: 15%;
+		padding-top: 25%;
 	}
 }
 
