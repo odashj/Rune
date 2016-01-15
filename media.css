@@ -14,12 +14,12 @@
 
 
 @media screen and (max-width: 899px) {
-img.images {
-	display: inline-block;
-	width: 75%;
-	padding-right: 1%;
-	padding-bottom: 1%;
-}
+	img.images {
+		display: inline-block;
+		width: 75%;
+		padding-right: 1%;
+		padding-bottom: 1%;
+	}
 }
 
 @media screen and (max-width: 899px) {
